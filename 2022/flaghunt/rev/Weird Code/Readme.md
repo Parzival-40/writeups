@@ -70,7 +70,7 @@ n =  [4679, 4631, 4775, 4839, 4951, 4295, 4487, 4519, 4439, 4839, 4231, 5095, 59
 
 The goal is to reverse engineer the flag from the output list `n`. The sauce is to understand what each instruction do and decompile the source into python code ourselves. Most of the instructions are easily understandable and most of us become confused about what `BINARY_SUBSCR` does and how `CALL_FUNCTION` works.
 
-`BINARY_SUBSCR`: It stands for `binary subscript`. It does the job of index in a list. It takes in two parameters: the `name of the list` and the `index ` of the list.
+`BINARY_SUBSCR`: It stands for `binary subscript`. It does the job of index in a list. It takes in two parameters: the `name of the list` and the `index` of the item.
 
 `CALL_FUNCTION`: It calls the function on top of the stack with the parameters passed to it in the stack. An example would be a fast way to learn. Consider offset 14-18 in the source code.
 

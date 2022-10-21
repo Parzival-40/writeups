@@ -121,7 +121,7 @@ print(flag)
 <details>
 <summary>flag</summary>
 
-We got out flag: `CTF_BD{Py_Byt3_C0d3}`
+`CTF_BD{Py_Byt3_C0d3}`
 
 </details>
 
